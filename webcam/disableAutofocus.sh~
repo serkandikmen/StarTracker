@@ -1,0 +1,3 @@
+#command to deactivate webcam's autofocus#
+v4l2-ctl -c focus_auto=0
+echo "autofocus deactivated..."
